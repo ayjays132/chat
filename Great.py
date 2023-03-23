@@ -32,7 +32,7 @@ engine = pyttsx3.init()
 
 
 # API keys and settings
-openai.api_key = "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"
+openai.api_key = ""
 voice = engine.getProperty('voices')[1]
 engine.setProperty('voice', voice.id)
 engine.setProperty('rate', 180)  # Adjusts the speaking rate, default is 200
@@ -266,7 +266,7 @@ secrets = {
 }
 
 # Fetching DoorDash API Keys
-api_key = secrets["cc52d7e9-26d8-44f4-9302-dbd416eed7e6"]
+api_key = secrets[""]
 
 
 # OpenAI GPT-3 model
